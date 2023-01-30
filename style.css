@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(rgba(16, 15, 15, 0.567),rgba(37, 74, 81, 0.567),rgb(29, 55, 100)) , url(/images/intrante.jpg);
+    background-position: center;
+    /* background-image: url(images/intrante.jpg); */
+    background-size: cover;
+    position: relative;
+    }
+    nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between ;
+        align-items: center;
+    }
+    nav img{
+        width: 100px;
+    }
+    .nav-links{
+     flex: 1;
+     text-align: right;
+    }
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px,12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: rgb(234, 209, 209);
+        text-decoration: none;
+        font-size: 20px;
+        word-spacing: 30px;
+    }
+    .nav-links ul li::after{
+        /* content: ; */
+        width: 0%;
+        height: 5px;
+        background: #d93e33;
+       display: block;
+       margin: auto;    
+    }
+    .nav-links ul li:hover::after {
+        width: 100%;
+    }
+    .text-box{
+        width: 90%;
+        color: rgb(56, 21, 79);
+        font-size: 35px;
+        position: absolute;
+        text-align: left;
+        padding-left: 30px;
+    }
+    
+    .course{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top:  100PX; ;
+    }
+    h1{
+     font-size: 36px;
+     font-weight: 600px;
+    }
+    .div-col{
+        display: flex;
+        
+    }
+    p{
+        color: rgb(209, 134, 35);
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 25px;
+        padding: 10px;
+    }
+    .div-col img{
+        width: 100%;
+    }
+    .layer{
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .row{
+        margin-top: 5% ;
+        display: flex;
+        justify-content: space-between;
+    }
+    .course-col{
+        flex-basis: 31%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+    }
+    h3{
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+      }
+  .course-col:hover{
+    box-shadow: 0 0 20px 0 black;
+  transition: 0.5s;
+}
+.need h1{
+    text-align: center;
+    
+}
